@@ -1,13 +1,13 @@
-package ch.zhaw.iwi.gpi.aacsb;
+package ch.zhaw.iwi.sd.rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AacsbServiceApplication {
+public class RestServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AacsbServiceApplication.class, args);
+		SpringApplication.run(RestServiceApplication.class, args);
 	}
 
 }
